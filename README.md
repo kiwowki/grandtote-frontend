@@ -21,6 +21,7 @@ Vue 3 기반 다국어 실시간 경마 베팅 웹 앱 입니다.
 
 
 ## 아키텍처 (Architecture)
+```
 [Vue 3 SPA]
     │ axios/http-client
     ▼
@@ -31,6 +32,7 @@ Vue 3 기반 다국어 실시간 경마 베팅 웹 앱 입니다.
     └─ Ably Pub/Sub (실시간 채팅·배당률)
     │
    Database & Cache
+```
 
 
 ## 주요 기능 (Features)
@@ -71,22 +73,23 @@ Vue 3 기반 다국어 실시간 경마 베팅 웹 앱 입니다.
 - 배포: CDN, Nginx
 
 ## 프로젝트 구조
+```
 ├─ public/ # 정적 자산
 │ └─ cdn/ # CDN 호스팅 파일
-│
-├─ src/ # 소스 코드
-│ ├─ ably/ # Ably 실시간 모듈
-│ ├─ api/ # 도메인별 REST API 호출 래퍼
-│ ├─ components/ # 재사용 컴포넌트
-│ ├─ constants/ # 전역 상수
-│ ├─ font/ # 폰트 파일
-│ ├─ locale/ # i18n 번역 리소스
-│ ├─ router/ # Vue Router 설정
-│ ├─ service/ # 공통 서비스 로직
-│ │ └─ api‑service.js # axios.create()로 baseURL 세팅
-│ ├─ store/                 # 전역 상태 관리 (Pinia/Vuex)
-│ ├─ util/ # 유틸리티 함수
-│ └─ views/ # 각 페이지 컴포넌트
+└─ src/ # 소스 코드
+├─ ably/ # Ably 실시간 모듈
+├─ api/ # 도메인별 REST API 호출 래퍼
+├─ components/ # 재사용 컴포넌트
+├─ constants/ # 전역 상수
+├─ font/ # 폰트 파일
+├─ locale/ # i18n 번역 리소스
+├─ router/ # Vue Router 설정
+├─ service/ # 공통 서비스 로직
+│ └─ api-service.js # axios.create()로 baseURL 세팅
+├─ store/ # 전역 상태 관리 (Pinia/Vuex)
+├─ util/ # 유틸리티 함수
+└─ views/ # 각 페이지 컴포넌트
+```
 
 
 ## API & 문서화 (API & Documentation)
