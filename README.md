@@ -101,3 +101,15 @@ Vue 3 기반 다국어 실시간 경마 베팅 웹 앱 입니다.
   · Swiper Carousel·Custom Video Player  
   · 모든 모달·팝업 `backdrop-filter: blur()`  
   · 하단 시트 및 GNB 드로워 적용
+
+
+## Upcoming Enhancements
+이 리포지토리에서는 다음 기능을 개인 프로젝트로 새롭게 구현하여 코드와 데모를 공개할 예정입니다.
+
+- Swiper Carousel 배너  
+- Custom Video Player UI  
+- Mobile Bottom‑Sheet Modal  
+- Form Validation & Error Handling  
+- 다국어(i18n) 스위처  
+- 간단한 배팅 히스토리 페이지  
+- 캘린더 컴포넌트 등
